@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {
     Collapse,
     Navbar,
@@ -7,14 +7,10 @@ import {
     Nav,
     NavItem,
     NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
 } from 'reactstrap';
-import './App.css';
+import './JournalNavbar.css';
 
-class App extends React.Component {
+class JournalNavbar extends React.Component {
     constructor(props) {
         super(props);
 
@@ -61,4 +57,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default JournalNavbar;
