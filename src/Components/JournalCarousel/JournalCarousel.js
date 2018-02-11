@@ -84,8 +84,7 @@ class JournalCarousel extends React.Component {
                 <CarouselItem
                     onExiting={this.onExiting}
                     onExited={this.onExited}
-                    key={item.src}
-                >
+                    key={item.src} >
                     <img src={item.src} alt={item.altText}/>
                     <CarouselCaption captionText={item.caption} captionHeader={item.header}/>
                 </CarouselItem>

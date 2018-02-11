@@ -42,7 +42,7 @@ class IndexPage extends React.Component {
                             </div>
                         </div>
                         <div className="p-2"></div>
-                        <h2 className="p-2">Editors</h2>
+                        <h2 className="text-center py-2">Editors</h2>
                         <div className="d-flex flex-wrap justify-content-around">
                             <AuthorCircle name="Hitoshi Oi" university="University of Aizu, Japan"/>
                             <AuthorCircle name="Jean Luca Tempesi" university="University of York, UK"/>
