@@ -7,9 +7,20 @@ class IndexPage extends React.Component {
     render() {
         return (
             <div>
-                <JournalNavbar/>
-                <JournalCarousel/>
-
+                <div className="container">
+                    <JournalNavbar/>
+                </div>
+                <header className="container-fluid">
+                    <JournalCarousel/>
+                </header>
+                <main className="container">
+                    <div className="row">
+                        {/*<h1>Main Content</h1>*/}
+                    </div>
+                </main>
+                <footer className="container-fluid">
+                    {/*<h1>Footer Content</h1>*/}
+                </footer>
             </div>
         );
     }
