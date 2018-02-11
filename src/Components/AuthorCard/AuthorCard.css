@@ -16,3 +16,9 @@ li p {
 .child{
     flex: 1 0 25%;
 }
+
+img {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+}
