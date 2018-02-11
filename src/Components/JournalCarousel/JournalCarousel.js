@@ -17,22 +17,26 @@ const items = [
     {
         src: AirplaneImage,
         altText: "Airplane construction site.",
-        header: "Aerospace"
+        header: "Aerospace",
+        caption: ""
     },
     {
         src: AutomotiveImage,
         altText: "Car's interior.",
-        header: "Automotive"
+        header: "Automotive",
+        caption: ""
     },
     {
         src: ElectronicsImage,
         altText: "Electrical Engineer using an oscilloscope.",
-        header: "Electronics"
+        header: "Electronics",
+        caption: ""
     },
     {
         src: ProgrammingImage,
         altText: "A programmer's view.",
-        header: "Algorithms"
+        header: "Algorithms",
+        caption: ""
     }
 ];
 
