@@ -1,0 +1,18 @@
+
+.authorRow {
+    background-color: #e3f2fd;
+
+}
+
+.authorRow  ul {
+    /*list-style-type: none;*/
+}
+
+li p {
+    margin: 0;
+    padding: 0;
+}
+
+.child{
+    flex: 1 0 25%;
+}
