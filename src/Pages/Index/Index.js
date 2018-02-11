@@ -1,5 +1,6 @@
 import React from 'react';
-import JournalNavbar from '../../JournalNavbar/JournalNavbar';
+import JournalNavbar from '../../Components/JournalNavbar/JournalNavbar';
+import JournalCarousel from "../../Components/JournalCarousel/JournalCarousel";
 import './Index.css';
 
 class IndexPage extends React.Component {
@@ -7,7 +8,8 @@ class IndexPage extends React.Component {
         return (
             <div>
                 <JournalNavbar/>
-                <h1>TODO: Index Page</h1>
+                <JournalCarousel/>
+
             </div>
         );
     }
