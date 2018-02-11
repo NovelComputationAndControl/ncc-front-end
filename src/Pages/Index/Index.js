@@ -3,6 +3,9 @@ import JournalNavbar from '../../Components/JournalNavbar/JournalNavbar';
 import JournalCarousel from "../../Components/JournalCarousel/JournalCarousel";
 import './Index.css';
 import AuthorCard from "../../Components/AuthorCard/AuthorCard";
+import AuthorCircle from "../../Components/AuthorCircle/AutorCircle";
+
+import MihaiImage from "./mihai.png";
 
 class IndexPage extends React.Component {
     render() {
@@ -21,7 +24,7 @@ class IndexPage extends React.Component {
                             <h1 className="p-2">Staff Members</h1>
                             <div className="d-flex flex-wrap justify-content-around">
                                 <div className="p-2 child">
-                                    <AuthorCard name="Mihai Udrescu" title="Editor-in-Chief"
+                                    <AuthorCard image={MihaiImage} name="Mihai Udrescu" title="Editor-in-Chief"
                                                 description="Mihai Udrescu is a proffesor at Universitatea Politehnica Timisoara."/>
                                 </div>
                                 <div className="p-2 child">
@@ -39,29 +42,14 @@ class IndexPage extends React.Component {
                             </div>
                         </div>
                         <div className="p-2"></div>
-                        <div className="row">
-                            <div className="col-sm-12 col-lg-4 text-center align-self-center">
-                                <h1>Editors</h1>
-                            </div>
-
-                            <div className="col-sm-6 col-lg-4 align-self-top">
-                                <ul>
-                                    <li>
-                                        <p>Hitoshi Oi <span className="text-muted">University of Aizu Japan</span>
-                                        </p>
-                                    </li>
-                                    <li>Jean Luca Tempesi <span className="text-muted">University of York UK</span></li>
-                                    <li>Ioan Dumitrache <span className="text-muted">Universitatea Politehnica Bucuresti</span></li>
-
-                                </ul>
-                            </div>
-                            <div className="col-sm-6 col-lg-4 align-self-top">
-                                <ul>
-                                    <li>Liviu Miclea <span className="text-muted">Universitatea Tehnica din Cluj Napoca</span></li>
-                                    <li>Lucian Vintan <span className="text-muted">Universitatea "Lucian Blaga" din Sibiu</span></li>
-                                    <li>Radu-Emil Precup <span className="text-muted">Universitatea Politehnica Timisoara</span></li>
-                                </ul>
-                            </div>
+                        <h2 className="p-2">Editors</h2>
+                        <div className="d-flex flex-wrap justify-content-around">
+                            <AuthorCircle name="Hitoshi Oi" university="University of Aizu, Japan"/>
+                            <AuthorCircle name="Jean Luca Tempesi" university="University of York, UK"/>
+                            <AuthorCircle name="Ioan Dumitrache" university="Universitatea Politehnica Bucuresti"/>
+                            <AuthorCircle name="Liviu Miclea" university="Universitatea Tehnica din Cluj Napoca"/>
+                            <AuthorCircle name="Lucian Vintan" university='Universitatea "Lucian Blaga" din Sibiu'/>
+                            <AuthorCircle name="Radu-Emil Precup" university="Universitatea Politehnica Timisoara"/>
                         </div>
                     </section>
                 </main>
