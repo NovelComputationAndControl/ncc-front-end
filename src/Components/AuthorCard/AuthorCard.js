@@ -6,7 +6,7 @@ import {
     CardTitle, CardSubtitle
 } from 'reactstrap';
 
-import UnknownImage from './unknown.jpg'
+import UnknownImage from './unknown.png'
 
 class AuthorCard extends React.Component {
 
