@@ -17,11 +17,12 @@ h5 {
     margin-bottom: 1rem;
 }
 
-a, a:visited {
+footer a, footer a:visited {
     color: #ccc;
+    padding-left: 0;
 }
 
-a:hover {
+footer a:hover {
     color: #777;
     font-style: normal;
     text-decoration: none;
