@@ -38,7 +38,8 @@ class IndexPage extends React.Component {
                                     </div>
                                     <div className="p-2 child">
                                         <AuthorCard name="Paul Bogdan" title="Associate Editor-in-Chief"
-                                                    description="Universitatea Politehnica Timisoara."/>
+                                                    description="Universitatea Politehnica Timisoara."
+                                                    website="https://viterbi.usc.edu/directory/faculty/Bogdan/Paul"/>
                                     </div>
                                     <div className="p-2 child">
                                         <AuthorCard name="Lucian Prodan" title="Associate Editor-in-Chief"
