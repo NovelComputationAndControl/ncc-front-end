@@ -33,7 +33,7 @@ class IndexPage extends React.Component {
                                     <div className="p-2 child">
                                         <AuthorCard name="Radu Marculescu" title="Associate Editor-in-Chief"
                                                     description="Universitatea Politehnica Timisoara."
-                                                    twitter="rmarculescu"
+                                                    twitter="rmarculescu" website="https://peerj.com/rmarculescu/"
                                         />
                                     </div>
                                     <div className="p-2 child">
