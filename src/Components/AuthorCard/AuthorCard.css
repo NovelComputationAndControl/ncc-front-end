@@ -4,25 +4,25 @@
 
 }
 
-.authorRow  ul {
+.authorRow ul {
     /*list-style-type: none;*/
 }
 
-li p {
+.author-card li p {
     margin: 0;
     padding: 0;
 }
 
-.child{
+.child {
     flex: 1 0 25%;
 }
 
-a {
+.author-card a {
     padding-left: .5rem;
     padding-right: .5rem;
 }
 
-img {
+.author-card img {
     height: 20rem;
     width: 100%;
     object-fit: cover;

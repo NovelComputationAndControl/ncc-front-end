@@ -35,7 +35,7 @@ class AuthorCard extends React.Component {
         }
 
         return (
-            <div>
+            <div className="author-card">
                 <Card>
                     {authorImage}
                     <CardBody>
