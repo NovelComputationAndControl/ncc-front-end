@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import JournalCarousel from './JournalCarousel';
+import JournalCarousel from './journalCarousel';
 
 it('renders without crashing', () => {
     const div = document.createElement('div');

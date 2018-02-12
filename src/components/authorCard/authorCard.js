@@ -1,5 +1,5 @@
 import React from 'react'
-import "./AuthorCard.css"
+import "./authorCard.css"
 
 import Icon from 'react-icons-kit';
 import {twitter} from 'react-icons-kit/fa/twitter';
