@@ -17,13 +17,13 @@ class JournalFooter extends React.Component {
                     <div className="flex-column p-5 w-25">
                         <h5>About Us</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#">Homepage</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Univeristatea Politehnica Timisoara</a></li>
-                            <li><a href="#">Submission Guidelines</a></li>
+                            <li><a href="/home">Homepage</a></li>
+                            <li><a href="/about">About Us</a></li>
+                            <li><a href="https://www.upt.ro/">Univeristatea Politehnica Timisoara</a></li>
+                            <li><a href="/guidelines">Submission Guidelines</a></li>
                             <li><a href="https://github.com/NovelComputationAndControl"
-                                   target="_blank">Github</a></li>
-                            <li><a href="#">Contact</a></li>
+                                   target="_blank" rel="noopener noreferrer">Github</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
                     <div className="flex-column p-5 w-25">
