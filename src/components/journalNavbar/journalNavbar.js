@@ -28,7 +28,7 @@ class JournalNavbar extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="navigation-bar">
                 <Navbar color="red" light expand="md">
                     <NavbarBrand href="/">Novel Computation & Control</NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>

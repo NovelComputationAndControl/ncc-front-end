@@ -37,3 +37,15 @@ p {
     margin-bottom: 0;
     padding-bottom: .5rem;
 }
+
+footer .child-20 {
+    flex: 1 0 20%;
+}
+
+footer .child-30 {
+    flex: 1 0 30%;
+}
+
+footer .child-40 {
+    flex: 1 0 40%;
+}

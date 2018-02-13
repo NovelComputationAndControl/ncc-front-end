@@ -5,8 +5,8 @@ class JournalFooter extends React.Component {
     render() {
         return (
             <footer className="container-fluid footer">
-                <section className="d-flex flex-row">
-                    <div className="flex-column p-5 w-50">
+                <section className="d-flex flex-row flex-wrap">
+                    <div className="child-40 flex-column p-5 ">
                         <h2>Novel</h2>
                         <h2>Computation &</h2>
                         <h2>Control</h2>
@@ -14,7 +14,7 @@ class JournalFooter extends React.Component {
                         <p>Bulevardul Vasile Pârvan 2, <b>Timișoara</b> 300223</p>
                         <p><b>Tel:</b> <a href="tel:777-7777-7777">777-7777-7777</a></p>
                     </div>
-                    <div className="flex-column p-5 w-25">
+                    <div className="child-30 flex-column p-5 ">
                         <h5>About Us</h5>
                         <ul className="list-unstyled">
                             <li><a href="/home">Homepage</a></li>
@@ -26,7 +26,7 @@ class JournalFooter extends React.Component {
                             <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
-                    <div className="flex-column p-5 w-25">
+                    <div className="child-20 flex-column p-5 ">
                         <h5>Legal</h5>
                         <ul className="align-self-start list-unstyled">
                             <li><a href="#">Privacy Policy</a></li>
