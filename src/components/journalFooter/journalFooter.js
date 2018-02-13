@@ -12,7 +12,7 @@ class JournalFooter extends React.Component {
                         <h2>Control</h2>
                         <p></p>
                         <p>Bulevardul Vasile Pârvan 2, <b>Timișoara</b> 300223</p>
-                        <p><b>Tel:</b> <a href="tel:777-7777-7777">777-7777-7777</a> </p>
+                        <p><b>Tel:</b> <a href="tel:777-7777-7777">777-7777-7777</a></p>
                     </div>
                     <div className="flex-column p-5 w-25">
                         <h5>About Us</h5>
@@ -21,6 +21,8 @@ class JournalFooter extends React.Component {
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Univeristatea Politehnica Timisoara</a></li>
                             <li><a href="#">Submission Guidelines</a></li>
+                            <li><a href="https://github.com/NovelComputationAndControl"
+                                   target="_blank">Github</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
