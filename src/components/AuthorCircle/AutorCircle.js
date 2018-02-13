@@ -1,5 +1,5 @@
 import React from 'react'
-import './authorCircle.css'
+import './AuthorCircle.css'
 
 class AutorCircle extends React.Component {
     render() {

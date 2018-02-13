@@ -1,5 +1,5 @@
 import React from 'react'
-import "./journalFooter.css"
+import "./JournalFooter.css"
 
 class JournalFooter extends React.Component {
     render() {

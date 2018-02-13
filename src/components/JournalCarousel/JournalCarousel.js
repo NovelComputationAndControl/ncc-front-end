@@ -1,5 +1,5 @@
 import React from 'react';
-import './journalCarousel.css';
+import './JournalCarousel.css';
 import {
     Carousel,
     CarouselItem,

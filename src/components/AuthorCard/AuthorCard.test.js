@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AuthorCard from './authorCard';
+import AuthorCard from './AuthorCard';
 
 it('renders without crashing', () => {
     const div = document.createElement('div');

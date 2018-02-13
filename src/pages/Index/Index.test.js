@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AuthorCircle from './autorCircle';
+import Index from './Index';
 
 it('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<AuthorCircle />, div);
+    ReactDOM.render(<Index />, div);
     ReactDOM.unmountComponentAtNode(div);
 });

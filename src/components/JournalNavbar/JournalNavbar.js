@@ -8,7 +8,7 @@ import {
     NavItem,
     NavLink,
 } from 'reactstrap';
-import './journalNavbar.css';
+import './JournalNavbar.css';
 
 class JournalNavbar extends React.Component {
     constructor(props) {

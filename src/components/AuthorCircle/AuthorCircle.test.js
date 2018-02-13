@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import JournalFooter from './journalFooter';
+import AuthorCircle from './AutorCircle';
 
 it('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<JournalFooter />, div);
+    ReactDOM.render(<AuthorCircle />, div);
     ReactDOM.unmountComponentAtNode(div);
 });
