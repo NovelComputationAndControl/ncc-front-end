@@ -2,8 +2,9 @@ import React from 'react';
 import JournalNavbar from '../../components/JournalNavbar/JournalNavbar';
 import JournalCarousel from "../../components/JournalCarousel/JournalCarousel";
 import './Index.css';
-import AuthorCard from "../../components/AuthorCard/AuthorCard";
 import JournalFooter from "../../components/JournalFooter/JournalFooter";
+import AuthorRow from "./AuthorRow";
+import StatisticsRow from "./StatisticsRow";
 
 class IndexPage extends React.Component {
     render() {
@@ -16,41 +17,21 @@ class IndexPage extends React.Component {
                     <JournalCarousel/>
                 </header>
                 <main>
-                    <section className="container-fluid authorRow">
+                    <div className="container-fluid py-5">
                         <div className="container">
-                            <div className="p-2"></div>
-                            <div>
-                                <div className="text-center">
-                                    <a href="/about"><h2>Editorial Board</h2></a>
-                                </div>
-                                <div className="d-flex flex-wrap justify-content-around">
-                                    <div className="p-2 child">
-                                        <AuthorCard name="Mihai Udrescu" title="Editor-in-Chief"
-                                                    description="Universitatea Politehnica Timisoara."
-                                                    website="https://peerj.com/MUdrescu/" twitter="MihaiUdrescu"
-                                        />
-                                    </div>
-                                    <div className="p-2 child">
-                                        <AuthorCard name="Radu Marculescu" title="Associate Editor-in-Chief"
-                                                    description="Universitatea Politehnica Timisoara."
-                                                    twitter="rmarculescu" website="https://peerj.com/rmarculescu/"
-                                        />
-                                    </div>
-                                    <div className="p-2 child">
-                                        <AuthorCard name="Paul Bogdan" title="Associate Editor-in-Chief"
-                                                    description="Universitatea Politehnica Timisoara."
-                                                    website="https://viterbi.usc.edu/directory/faculty/Bogdan/Paul"/>
-                                    </div>
-                                    <div className="p-2 child">
-                                        <AuthorCard name="Lucian Prodan" title="Associate Editor-in-Chief"
-                                                    description="Universitatea Politehnica Timisoara."
-                                                    website="http://www.acsa.upt.ro/about_us/lucian_prodan.htm"
-                                        />
-                                    </div>
-                                </div>
-                            </div>
+                            <h1>
+                                IEEE Transactions on Computers
+                            </h1>
+                            <p>
+
+                                IEEE Transactions on Computers (TC) is a monthly publication that publishes research in
+                                such areas as computer organizations and architectures, digital devices, operating
+                                systems, and new and important applications and trends.
+                                Will style later.</p>
                         </div>
-                    </section>
+                    </div>
+                    <AuthorRow/>
+                    <StatisticsRow/>
                 </main>
                 <JournalFooter/>
             </div>

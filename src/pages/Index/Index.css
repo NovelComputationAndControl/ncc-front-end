@@ -1,3 +1,14 @@
 a, a:visited, a:hover {
     text-decoration: none;
 }
+
+.section-statstics {
+    background-color: #c5cae9;
+    padding-bottom: 2.5rem;
+}
+
+.count-number {
+    font-size: 4em;
+    font-weight: bold;
+    width: 4em;
+}

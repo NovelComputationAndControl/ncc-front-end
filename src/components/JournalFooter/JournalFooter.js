@@ -29,8 +29,8 @@ class JournalFooter extends React.Component {
                     <div className="child-20 flex-column p-5 ">
                         <h5>Legal</h5>
                         <ul className="align-self-start list-unstyled">
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="/policy">Privacy Policy</a></li>
+                            <li><a href="/policy">Cookie Policy</a></li>
                         </ul>
                     </div>
                 </section>
