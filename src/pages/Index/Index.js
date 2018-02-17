@@ -1,6 +1,6 @@
 import React from 'react';
 import JournalNavbar from '../../containers/JournalNavbar/JournalNavbar';
-import JournalCarousel from "../../components/JournalCarousel/JournalCarousel";
+import JournalCarousel from "../../containers/JournalCarousel/JournalCarousel";
 import './Index.css';
 import JournalFooter from "../../components/JournalFooter/JournalFooter";
 import AuthorRow from "../../components/AuthorRow/AuthorRow";
