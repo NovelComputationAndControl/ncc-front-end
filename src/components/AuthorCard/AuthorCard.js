@@ -49,6 +49,6 @@ const authorCard = (props) => {
             </Card>
         </div>
     )
-}
+};
 
 export default authorCard;

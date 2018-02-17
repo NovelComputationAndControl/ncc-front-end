@@ -39,6 +39,6 @@ const journalFooter = (props) => {
             </section>
         </footer>
     )
-}
+};
 
 export default journalFooter
