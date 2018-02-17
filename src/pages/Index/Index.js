@@ -1,10 +1,10 @@
 import React from 'react';
-import JournalNavbar from '../../components/JournalNavbar/JournalNavbar';
+import JournalNavbar from '../../containers/JournalNavbar/JournalNavbar';
 import JournalCarousel from "../../components/JournalCarousel/JournalCarousel";
 import './Index.css';
 import JournalFooter from "../../components/JournalFooter/JournalFooter";
-import AuthorRow from "./AuthorRow";
-import StatisticsRow from "./StatisticsRow";
+import AuthorRow from "../../components/AuthorRow/AuthorRow";
+import StatisticsRow from "../../components/StatisticsRow/StatisticsRow";
 
 class IndexPage extends React.Component {
     render() {

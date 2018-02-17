@@ -1,5 +1,5 @@
 import React from 'react'
-import AuthorCard from "../../components/AuthorCard/AuthorCard";
+import AuthorCard from "../AuthorCard/AuthorCard";
 
 const authorRow = () => {
     return (
