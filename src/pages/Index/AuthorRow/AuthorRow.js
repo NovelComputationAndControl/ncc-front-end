@@ -1,5 +1,5 @@
 import React from 'react'
-import AuthorCard from "../AuthorCard/AuthorCard";
+import AuthorCard from "../../../components/AuthorCard/AuthorCard";
 
 const authorRow = () => {
     return (
@@ -8,7 +8,7 @@ const authorRow = () => {
                 <div className="p-2"></div>
                 <div>
                     <div>
-                        <a href="/about"><h2>Chief Editors</h2></a>
+                        <h2>Chief Editors</h2>
                     </div>
                     <div className="d-flex flex-wrap justify-content-around">
                         <div className="p-2 child">

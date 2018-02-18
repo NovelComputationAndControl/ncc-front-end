@@ -8,10 +8,10 @@ import {
     CarouselCaption
 } from 'reactstrap';
 
-import AirplaneImage from "../../assets/images/airplane.jpeg";
-import AutomotiveImage from "../../assets/images/automotive.jpeg";
-import ElectronicsImage from "../../assets/images/electronics.jpeg";
-import ProgrammingImage from "../../assets/images/programming.jpeg";
+import AirplaneImage from "../../../assets/images/airplane.jpeg";
+import AutomotiveImage from "../../../assets/images/automotive.jpeg";
+import ElectronicsImage from "../../../assets/images/electronics.jpeg";
+import ProgrammingImage from "../../../assets/images/programming.jpeg";
 
 const items = [
     {
