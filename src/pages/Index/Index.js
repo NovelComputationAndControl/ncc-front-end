@@ -1,18 +1,14 @@
-import React from 'react';
-import JournalNavbar from '../../components/JournalNavbar/JournalNavbar';
+import React, {Fragment} from 'react';
 import JournalCarousel from "./JournalCarousel/JournalCarousel";
-import './Index.css';
-import JournalFooter from "../../components/JournalFooter/JournalFooter";
 import AuthorRow from "./AuthorRow/AuthorRow";
 import StatisticsRow from "./StatisticsRow/StatisticsRow";
+
+import './Index.css';
 
 class IndexPage extends React.Component {
     render() {
         return (
-            <div>
-                <div className="container">
-                    <JournalNavbar/>
-                </div>
+            <Fragment>
                 <header className="container-fluid">
                     <JournalCarousel/>
                 </header>
@@ -24,8 +20,10 @@ class IndexPage extends React.Component {
                             </h1>
                             <p>
 
-                                IEEE Transactions on Computers (TC) is a monthly publication that publishes research in
-                                such areas as computer organizations and architectures, digital devices, operating
+                                IEEE Transactions on Computers (TC) is a monthly publication that publishes
+                                research in
+                                such areas as computer organizations and architectures, digital devices,
+                                operating
                                 systems, and new and important applications and trends.
                                 Will style later.</p>
                         </div>
@@ -33,8 +31,7 @@ class IndexPage extends React.Component {
                     <AuthorRow/>
                     <StatisticsRow/>
                 </main>
-                <JournalFooter/>
-            </div>
+            </Fragment>
         );
     }
 }

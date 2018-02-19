@@ -1,34 +1,21 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import JournalNavbar from '../JournalNavbar/JournalNavbar'
+import JournalFooter from '../JournalFooter/JournalFooter'
+import {BrowserRouter} from 'react-router-dom';
 
 const layout = (props) => {
     return (
-        <>
+        <Fragment>
             <div className="container">
                 <JournalNavbar/>
             </div>
-            {props.children}
-            <header className="container-fluid">
-                <JournalCarousel/>
-            </header>
-            <main>
-                <div className="container-fluid py-5">
-                    <div className="container">
-                        <h1>
-                            IEEE Transactions on Computers
-                        </h1>
-                        <p>
-
-                            IEEE Transactions on Computers (TC) is a monthly publication that publishes research in
-                            such areas as computer organizations and architectures, digital devices, operating
-                            systems, and new and important applications and trends.
-                            Will style later.</p>
-                    </div>
-                </div>
-                <AuthorRow/>
-                <StatisticsRow/>
-            </main>
+            <BrowserRouter>
+                <Fragment>
+                    {props.children}
+                </Fragment>
+            </BrowserRouter>
             <JournalFooter/>
-        </>
+        </Fragment>
     );
 };
 
