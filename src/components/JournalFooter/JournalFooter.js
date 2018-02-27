@@ -19,14 +19,17 @@ const journalFooter = (props) => {
                     <ul className="list-unstyled">
                         <li><Link to={{pathname: "/", hash: "top"}}>Homepage</Link></li>
                         <li><Link to={{
-                            pathname: "about_us",
+                            pathname: "about-us",
                             hash: "top",
                         }}>About Us</Link></li>
                         <li><a href="https://www.upt.ro/">Univeristatea Politehnica Timisoara</a></li>
                         <li><Link to="/guidelines">Submission Guidelines</Link></li>
                         <li><a href="https://github.com/NovelComputationAndControl"
                                target="_blank" rel="noopener noreferrer">Github</a></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to={{
+                            pathname: "contact",
+                            hash: "top"
+                        }}>Contact</Link></li>
                     </ul>
                 </div>
                 <div className="child-20 flex-column p-5 ">

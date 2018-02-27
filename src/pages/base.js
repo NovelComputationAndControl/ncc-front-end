@@ -5,6 +5,7 @@ import JournalFooter from '../components/JournalFooter/JournalFooter'
 import {BrowserRouter, Switch} from 'react-router-dom';
 import IndexPage from "./Index/Index";
 import AboutPage from "./About/About"
+import ContactPage from "./Contact/Contact"
 
 class Base extends React.Component {
     render() {
@@ -16,7 +17,8 @@ class Base extends React.Component {
                             <JournalNavbar/>
                         </div>
                         <Switch>
-                            <Route path="/about_us" component={AboutPage}/>
+                            <Route path="/about-us" component={AboutPage}/>
+                            <Route path="/contact" component={ContactPage}/>
                             <Route path="/" component={IndexPage}/>
                         </Switch>
                         <JournalFooter/>
